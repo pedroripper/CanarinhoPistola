@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB181C7820FE8721002FF9D0 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = EB181C7720FE8721002FF9D0 /* Images */; };
+		EB181C7A20FE8730002FF9D0 /* Objects in Resources */ = {isa = PBXBuildFile; fileRef = EB181C7920FE8730002FF9D0 /* Objects */; };
+		EB181C7E20FE8A5B002FF9D0 /* gameScene.scn in Resources */ = {isa = PBXBuildFile; fileRef = EB181C7D20FE8A5B002FF9D0 /* gameScene.scn */; };
+		EBFFBD9A20F4F3B3005B62C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFFBD9920F4F3B3005B62C7 /* AppDelegate.swift */; };
+		EBFFBD9C20F4F3B3005B62C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFFBD9B20F4F3B3005B62C7 /* ViewController.swift */; };
+		EBFFBD9F20F4F3B3005B62C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBFFBD9D20F4F3B3005B62C7 /* Main.storyboard */; };
+		EBFFBDA120F4F3B4005B62C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBFFBDA020F4F3B4005B62C7 /* Assets.xcassets */; };
+		EBFFBDA420F4F3B5005B62C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBFFBDA220F4F3B5005B62C7 /* LaunchScreen.storyboard */; };
+		EBFFBDAF20F4F3B5005B62C7 /* CanarinhoRussiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFFBDAE20F4F3B5005B62C7 /* CanarinhoRussiaTests.swift */; };
+		EBFFBDBA20F4F3B5005B62C7 /* CanarinhoRussiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFFBDB920F4F3B5005B62C7 /* CanarinhoRussiaUITests.swift */; };
+		EBFFBDD220F4F829005B62C7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFFBDD120F4F829005B62C7 /* SecondViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBFFBDAB20F4F3B5005B62C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBFFBD8E20F4F3B3005B62C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBFFBD9520F4F3B3005B62C7;
+			remoteInfo = CanarinhoRussia;
+		};
+		EBFFBDB620F4F3B5005B62C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBFFBD8E20F4F3B3005B62C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBFFBD9520F4F3B3005B62C7;
+			remoteInfo = CanarinhoRussia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB181C7720FE8721002FF9D0 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = SOURCE_ROOT; };
+		EB181C7920FE8730002FF9D0 /* Objects */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Objects; sourceTree = SOURCE_ROOT; };
+		EB181C7D20FE8A5B002FF9D0 /* gameScene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = gameScene.scn; path = ../../../../../../Volumes/Public/xcodePedro/CanarinhoPistola/CanarinhoPistola/JogoAlgest1/art.scnassets/gameScene.scn; sourceTree = "<group>"; };
+		EBFFBD9620F4F3B3005B62C7 /* CanarinhoRussia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanarinhoRussia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBFFBD9920F4F3B3005B62C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBFFBD9B20F4F3B3005B62C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBFFBD9E20F4F3B3005B62C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBFFBDA020F4F3B4005B62C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBFFBDA320F4F3B5005B62C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBFFBDA520F4F3B5005B62C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBFFBDAA20F4F3B5005B62C7 /* CanarinhoRussiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanarinhoRussiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBFFBDAE20F4F3B5005B62C7 /* CanarinhoRussiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanarinhoRussiaTests.swift; sourceTree = "<group>"; };
+		EBFFBDB020F4F3B5005B62C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBFFBDB520F4F3B5005B62C7 /* CanarinhoRussiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanarinhoRussiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBFFBDB920F4F3B5005B62C7 /* CanarinhoRussiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanarinhoRussiaUITests.swift; sourceTree = "<group>"; };
+		EBFFBDBB20F4F3B5005B62C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBFFBDD120F4F829005B62C7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBFFBD9320F4F3B3005B62C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBFFBDA720F4F3B5005B62C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBFFBDB220F4F3B5005B62C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBFFBD8D20F4F3B3005B62C7 = {
+			isa = PBXGroup;
+			children = (
+				EBFFBD9820F4F3B3005B62C7 /* CanarinhoRussia */,
+				EBFFBDAD20F4F3B5005B62C7 /* CanarinhoRussiaTests */,
+				EBFFBDB820F4F3B5005B62C7 /* CanarinhoRussiaUITests */,
+				EBFFBD9720F4F3B3005B62C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBFFBD9720F4F3B3005B62C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBFFBD9620F4F3B3005B62C7 /* CanarinhoRussia.app */,
+				EBFFBDAA20F4F3B5005B62C7 /* CanarinhoRussiaTests.xctest */,
+				EBFFBDB520F4F3B5005B62C7 /* CanarinhoRussiaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBFFBD9820F4F3B3005B62C7 /* CanarinhoRussia */ = {
+			isa = PBXGroup;
+			children = (
+				EBFFBD9920F4F3B3005B62C7 /* AppDelegate.swift */,
+				EBFFBD9B20F4F3B3005B62C7 /* ViewController.swift */,
+				EB181C7D20FE8A5B002FF9D0 /* gameScene.scn */,
+				EBFFBDD120F4F829005B62C7 /* SecondViewController.swift */,
+				EBFFBD9D20F4F3B3005B62C7 /* Main.storyboard */,
+				EB181C7920FE8730002FF9D0 /* Objects */,
+				EB181C7720FE8721002FF9D0 /* Images */,
+				EBFFBDA020F4F3B4005B62C7 /* Assets.xcassets */,
+				EBFFBDA220F4F3B5005B62C7 /* LaunchScreen.storyboard */,
+				EBFFBDA520F4F3B5005B62C7 /* Info.plist */,
+			);
+			path = CanarinhoRussia;
+			sourceTree = "<group>";
+		};
+		EBFFBDAD20F4F3B5005B62C7 /* CanarinhoRussiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBFFBDAE20F4F3B5005B62C7 /* CanarinhoRussiaTests.swift */,
+				EBFFBDB020F4F3B5005B62C7 /* Info.plist */,
+			);
+			path = CanarinhoRussiaTests;
+			sourceTree = "<group>";
+		};
+		EBFFBDB820F4F3B5005B62C7 /* CanarinhoRussiaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBFFBDB920F4F3B5005B62C7 /* CanarinhoRussiaUITests.swift */,
+				EBFFBDBB20F4F3B5005B62C7 /* Info.plist */,
+			);
+			path = CanarinhoRussiaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBFFBD9520F4F3B3005B62C7 /* CanarinhoRussia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBFFBDBE20F4F3B5005B62C7 /* Build configuration list for PBXNativeTarget "CanarinhoRussia" */;
+			buildPhases = (
+				EBFFBD9220F4F3B3005B62C7 /* Sources */,
+				EBFFBD9320F4F3B3005B62C7 /* Frameworks */,
+				EBFFBD9420F4F3B3005B62C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CanarinhoRussia;
+			productName = CanarinhoRussia;
+			productReference = EBFFBD9620F4F3B3005B62C7 /* CanarinhoRussia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBFFBDA920F4F3B5005B62C7 /* CanarinhoRussiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBFFBDC120F4F3B5005B62C7 /* Build configuration list for PBXNativeTarget "CanarinhoRussiaTests" */;
+			buildPhases = (
+				EBFFBDA620F4F3B5005B62C7 /* Sources */,
+				EBFFBDA720F4F3B5005B62C7 /* Frameworks */,
+				EBFFBDA820F4F3B5005B62C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBFFBDAC20F4F3B5005B62C7 /* PBXTargetDependency */,
+			);
+			name = CanarinhoRussiaTests;
+			productName = CanarinhoRussiaTests;
+			productReference = EBFFBDAA20F4F3B5005B62C7 /* CanarinhoRussiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBFFBDB420F4F3B5005B62C7 /* CanarinhoRussiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBFFBDC420F4F3B5005B62C7 /* Build configuration list for PBXNativeTarget "CanarinhoRussiaUITests" */;
+			buildPhases = (
+				EBFFBDB120F4F3B5005B62C7 /* Sources */,
+				EBFFBDB220F4F3B5005B62C7 /* Frameworks */,
+				EBFFBDB320F4F3B5005B62C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBFFBDB720F4F3B5005B62C7 /* PBXTargetDependency */,
+			);
+			name = CanarinhoRussiaUITests;
+			productName = CanarinhoRussiaUITests;
+			productReference = EBFFBDB520F4F3B5005B62C7 /* CanarinhoRussiaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBFFBD8E20F4F3B3005B62C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				TargetAttributes = {
+					EBFFBD9520F4F3B3005B62C7 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					EBFFBDA920F4F3B5005B62C7 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EBFFBD9520F4F3B3005B62C7;
+					};
+					EBFFBDB420F4F3B5005B62C7 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EBFFBD9520F4F3B3005B62C7;
+					};
+				};
+			};
+			buildConfigurationList = EBFFBD9120F4F3B3005B62C7 /* Build configuration list for PBXProject "CanarinhoRussia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBFFBD8D20F4F3B3005B62C7;
+			productRefGroup = EBFFBD9720F4F3B3005B62C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBFFBD9520F4F3B3005B62C7 /* CanarinhoRussia */,
+				EBFFBDA920F4F3B5005B62C7 /* CanarinhoRussiaTests */,
+				EBFFBDB420F4F3B5005B62C7 /* CanarinhoRussiaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBFFBD9420F4F3B3005B62C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB181C7820FE8721002FF9D0 /* Images in Resources */,
+				EB181C7E20FE8A5B002FF9D0 /* gameScene.scn in Resources */,
+				EBFFBDA420F4F3B5005B62C7 /* LaunchScreen.storyboard in Resources */,
+				EBFFBDA120F4F3B4005B62C7 /* Assets.xcassets in Resources */,
+				EB181C7A20FE8730002FF9D0 /* Objects in Resources */,
+				EBFFBD9F20F4F3B3005B62C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBFFBDA820F4F3B5005B62C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBFFBDB320F4F3B5005B62C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBFFBD9220F4F3B3005B62C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBFFBDD220F4F829005B62C7 /* SecondViewController.swift in Sources */,
+				EBFFBD9C20F4F3B3005B62C7 /* ViewController.swift in Sources */,
+				EBFFBD9A20F4F3B3005B62C7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBFFBDA620F4F3B5005B62C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBFFBDAF20F4F3B5005B62C7 /* CanarinhoRussiaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBFFBDB120F4F3B5005B62C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBFFBDBA20F4F3B5005B62C7 /* CanarinhoRussiaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBFFBDAC20F4F3B5005B62C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBFFBD9520F4F3B3005B62C7 /* CanarinhoRussia */;
+			targetProxy = EBFFBDAB20F4F3B5005B62C7 /* PBXContainerItemProxy */;
+		};
+		EBFFBDB720F4F3B5005B62C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBFFBD9520F4F3B3005B62C7 /* CanarinhoRussia */;
+			targetProxy = EBFFBDB620F4F3B5005B62C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBFFBD9D20F4F3B3005B62C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBFFBD9E20F4F3B3005B62C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBFFBDA220F4F3B5005B62C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBFFBDA320F4F3B5005B62C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBFFBDBC20F4F3B5005B62C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBFFBDBD20F4F3B5005B62C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBFFBDBF20F4F3B5005B62C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y57N5GU4T6;
+				INFOPLIST_FILE = CanarinhoRussia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ripper.CanarinhoRussia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EBFFBDC020F4F3B5005B62C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y57N5GU4T6;
+				INFOPLIST_FILE = CanarinhoRussia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ripper.CanarinhoRussia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EBFFBDC220F4F3B5005B62C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CanarinhoRussiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ripper.CanarinhoRussiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CanarinhoRussia.app/CanarinhoRussia";
+			};
+			name = Debug;
+		};
+		EBFFBDC320F4F3B5005B62C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CanarinhoRussiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ripper.CanarinhoRussiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CanarinhoRussia.app/CanarinhoRussia";
+			};
+			name = Release;
+		};
+		EBFFBDC520F4F3B5005B62C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CanarinhoRussiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ripper.CanarinhoRussiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CanarinhoRussia;
+			};
+			name = Debug;
+		};
+		EBFFBDC620F4F3B5005B62C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CanarinhoRussiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ripper.CanarinhoRussiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CanarinhoRussia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBFFBD9120F4F3B3005B62C7 /* Build configuration list for PBXProject "CanarinhoRussia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBFFBDBC20F4F3B5005B62C7 /* Debug */,
+				EBFFBDBD20F4F3B5005B62C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBFFBDBE20F4F3B5005B62C7 /* Build configuration list for PBXNativeTarget "CanarinhoRussia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBFFBDBF20F4F3B5005B62C7 /* Debug */,
+				EBFFBDC020F4F3B5005B62C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBFFBDC120F4F3B5005B62C7 /* Build configuration list for PBXNativeTarget "CanarinhoRussiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBFFBDC220F4F3B5005B62C7 /* Debug */,
+				EBFFBDC320F4F3B5005B62C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBFFBDC420F4F3B5005B62C7 /* Build configuration list for PBXNativeTarget "CanarinhoRussiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBFFBDC520F4F3B5005B62C7 /* Debug */,
+				EBFFBDC620F4F3B5005B62C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBFFBD8E20F4F3B3005B62C7 /* Project object */;
+}
