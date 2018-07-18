@@ -33,6 +33,7 @@ class SecondViewController: UIViewController {
     var canarinhoNode:SCNNode!
     var cameraVisionNode:SCNNode!
     var dollNode:SCNNode!
+    var doll2Node:SCNNode!
     
     
     
@@ -65,10 +66,12 @@ class SecondViewController: UIViewController {
     
     func setupNodes() {
     
-        canarinhoNode = scene.rootNode.childNode(withName: "Cube", recursively: true)!
+        canarinhoNode = scene.rootNode.childNode(withName: "Canarinho", recursively: true)!
         canarinhoNode.physicsBody?.contactTestBitMask = russianDoll
         cameraVisionNode = scene.rootNode.childNode(withName: "cameraVision", recursively: true)!
-        dollNode = scene.rootNode.childNode(withName:"Sphere", recursively: true)!
+        dollNode = scene.rootNode.childNode(withName:"Doll", recursively: true)!
+        doll2Node = scene.rootNode.childNode(withName: "Doll2", recursively: true)!
+        
        
         
         
@@ -90,7 +93,7 @@ class SecondViewController: UIViewController {
         let clicks = hitResults.count
         // pulo do canarinho
         if clicks == 1 {
-            canarinhoNode.physicsBody?.applyForce(SCNVector3(x: 0, y:4, z: 0), asImpulse: true)
+            canarinhoNode.physicsBody?.applyForce(SCNVector3(x: 0, y:3, z: 0), asImpulse: true)
         }
     }
     
@@ -116,6 +119,8 @@ extension SecondViewController : SCNSceneRendererDelegate {
         let canarinho = canarinhoNode.presentation
         let canarinhoPosition = canarinho.position
         var dollPosition = dollNode.position
+        var doll2Position = doll2Node.position
+        
         //fazendo a camera acompanhar o canarinho
         let targetPosition = SCNVector3(x: canarinhoPosition.x, y: canarinhoPosition.y , z:canarinhoPosition.z )
         var cameraPosition = cameraVisionNode.position
@@ -127,19 +132,32 @@ extension SecondViewController : SCNSceneRendererDelegate {
     
         let zComponent = cameraPosition.z * (1 - camDamping) + targetPosition.z * camDamping
         
-        
-        let correcao:Float = 10.0
-    
-        
         cameraPosition = SCNVector3(x: xComponent, y: cameraPosition.y, z: zComponent)
         cameraVisionNode.position = cameraPosition
-        if canarinhoPosition.x < dollPosition.x{
-            //sempre que o canarinho ultrapassa a boneca, ela muda de posicao
-            let xdoll = canarinhoPosition.x - correcao
+        
+        
+        
+        
+        let correcao1:Float = 20.0
+        let correcao2:Float = 20.0
+        
+        //mudanca de posicao da boneca 1
+        if (canarinhoPosition.x + 4.0 ) < dollPosition.x{
+            let xdoll = canarinhoPosition.x - correcao1
             let ydoll = dollPosition.y
             let zdoll = dollPosition.z
             dollPosition = SCNVector3(xdoll, ydoll, zdoll)
             dollNode.position = dollPosition
+            increaseScore()
+        }
+        
+        //mudanca de posicao da boneca 2
+        if (canarinhoPosition.x + 4.0) < doll2Position.x{
+            let xdoll2 = canarinhoPosition.x - correcao2
+            let ydoll2 = doll2Position.y
+            let zdoll2 = doll2Position.z
+            doll2Position = SCNVector3(xdoll2, ydoll2, zdoll2)
+            doll2Node.position = doll2Position
             increaseScore()
             
         }
